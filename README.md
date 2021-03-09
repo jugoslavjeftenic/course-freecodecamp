@@ -6,7 +6,7 @@ https://www.freecodecamp.org/learn/responsive-web-design/
 ## Basic CSS
 ## Applied Visual Design
 ## Applied Accessibility
-## 
+## Responsive Web Design Principles
 ## 
 ## 
 ## 
