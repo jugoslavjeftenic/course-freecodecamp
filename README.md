@@ -9,7 +9,4 @@ https://www.freecodecamp.org/learn/responsive-web-design/
 ## Responsive Web Design Principles
 ## CSS Flexbox
 ## CSS Grid
-## 
-## 
-## 
-## 
+## Responsive Web Design Projects
