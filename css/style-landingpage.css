@@ -21,6 +21,21 @@ article {
     padding-bottom: 1rem;
 }
 
+footer {
+    text-align: center;
+}
+
+footer a {
+    display: block;
+    height: 3rem;
+    text-decoration: none;
+    color: #333;
+}
+
+footer a:hover {
+    color: #111;
+}
+
 h1 {
     font-size: 3rem;
     text-align: center;
