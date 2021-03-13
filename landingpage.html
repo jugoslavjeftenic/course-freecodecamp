@@ -16,6 +16,7 @@
     
     <body>
         <header id="header">
+            <img src="img/landingpage-logo-sand-worm.jpg" alt="sandworm logo" id="header-img">
             <nav id="nav-bar">
                 <a class="nav-link" href="#sandworm">Sandworm</a>
                 <a class="nav-link" href="#brian">Brian Herbert's & Kevin J. Anderson's books</a>
@@ -24,8 +25,8 @@
         </header>
 
         <main>
-            <section id="sandworm">
-                <img src="img/landingpage-logo-sand-worm.jpg" alt="sandworm logo" id="header-img">
+            <article id="sandworm">
+                <h1>Sandworm</h1>
                 <p>
                     Sandworm is a comprehensive online bookstore for both books and other products of every point of knowledge.
                     Our philosophy is based on information, communication and education,
@@ -42,7 +43,17 @@
                 <p>
                     Our experienced staff can assist you in selecting the right literature and will be glad to go that extra mile for you!
                 </p>
-            </section>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <h2>Love bookstores? Stay in touch!</h2>
+                    <input
+                        name="email"
+                        id="email"
+                        type="email"
+                        placeholder="Enter your email address"
+                    />
+                    <input id="submit" type="submit" value="Subscribe" class="btn" />
+                </form>
+            </article>
             <h1>Dune</h1>
             <p>
                 Arguably a masterpiece of the Science Fiction genre, Dune laid the foundation for many of the epics that followed its publication.
@@ -102,16 +113,6 @@
                 <img src="img/landingpage-16-dune-graphic-novel.jpg" alt="Dune Graphic Novel">
                 <img src="img/landingpage-17-dune-encyclopedia.jpg" alt="Dune Encyclopedia">
             </section>
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <input
-                    name="email"
-                    id="email"
-                    type="email"
-                    placeholder="Enter your email address"
-                    required
-                />
-                <input id="submit" type="submit" value="Subscribe" class="btn" />
-              </form>
         </main>
 
         <footer>
