@@ -16,15 +16,18 @@ Build a Tribute Page
 
 https://jugoslavjeftenic.github.io/course-freecodecamp-webdesign/tributepage.html
 
-
 Build a Survey Form
+
 https://jugoslavjeftenic.github.io/course-freecodecamp-webdesign/surveyform.html
 
 Build a Product Landing Page
+
 https://jugoslavjeftenic.github.io/course-freecodecamp-webdesign/landingpage.html
 
 Build a Technical Documentation Page
+
 https://jugoslavjeftenic.github.io/course-freecodecamp-webdesign/technicaldocumentationpage.html
 
 Build a Personal Portfolio Webpage
+
 https://jugoslavjeftenic.github.io/course-freecodecamp-webdesign/personalportfoliopage.html
