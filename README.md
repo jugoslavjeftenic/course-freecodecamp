@@ -3,13 +3,13 @@
 https://www.freecodecamp.org/learn/responsive-web-design/
 
 ## Lessons
-Basic HTML and HTML5
-Basic CSS
-Applied Visual Design
-Applied Accessibility
-Responsive Web Design Principles
-CSS Flexbox
-CSS Grid
+- Basic HTML and HTML5
+- Basic CSS
+- Applied Visual Design
+- Applied Accessibility
+- Responsive Web Design Principles
+- CSS Flexbox
+- CSS Grid
 
 ## Responsive Web Design Projects
 Build a Tribute Page
