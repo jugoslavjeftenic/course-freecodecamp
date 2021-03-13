@@ -1,4 +1,4 @@
-# Responsive Web Design
+# Responsive Web Design Certification - freecodecamp.org
 
 https://www.freecodecamp.org/learn/responsive-web-design/
 
