@@ -7,3 +7,14 @@
 footer {
     text-align: center;
 }
+
+footer a {
+    display: block;
+    height: 3rem;
+    text-decoration: none;
+    color: #333;
+}
+
+footer a:hover {
+    color: #111;
+}

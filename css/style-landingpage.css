@@ -1,5 +1,3 @@
-
-
 body {
     font-family: 'Lato', sans-serif;
     font-size: 1.1rem;
@@ -37,6 +35,12 @@ p {
     padding-top: 1rem;
 }
 
+@media (max-width: 1100px) {
+    p {
+        margin: 1rem;
+    }
+}
+
 /* header */
 #nav-bar {
     background-color: #333;
@@ -71,7 +75,12 @@ p {
 }
 
 /* movies article */
-
+#movies iframe {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-align: center;
+}
 
 /* sandworm article */
 #form {
@@ -98,3 +107,4 @@ p {
     font-size: 0.8rem;
     font-weight: 700;
   }
+  
