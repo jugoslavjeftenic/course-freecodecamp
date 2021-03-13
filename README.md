@@ -13,7 +13,9 @@ CSS Grid
 
 ## Responsive Web Design Projects
 Build a Tribute Page
+
 https://jugoslavjeftenic.github.io/course-freecodecamp-webdesign/tributepage.html
+
 
 Build a Survey Form
 https://jugoslavjeftenic.github.io/course-freecodecamp-webdesign/surveyform.html
