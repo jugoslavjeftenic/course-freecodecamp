@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sh">
     
     <head>
         <meta charset="UTF-8">
@@ -8,7 +8,8 @@
         
         <title>Survey Form - freecodecamp.org</title>
         
-        <link rel="stylesheet" href="css/style-shared.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="css/style-surveyform.css">
     </head>
     
@@ -17,13 +18,12 @@
             <h1 id="title">Koliko poznajete Dina univerzum?</h1>
             <p id="description">
                 Pre Matriksa, pre Ratova zvezda, pre Enderove igre i Neuromansera, bila je Dina – remek-delo naučne fantastike,
-                koje je uzdiglo žanr na nov nivo i postalo nepresušna inspiracija za generacije stvaralaca različitih umetnosti.
+                koje je uzdiglo žanr na novi nivo i postalo nepresušna inspiracija za generacije stvaralaca različitih umetnosti.
             </p>
             <form id="survey-form">
-                
-                <h2>Molimo Vas da upišete Vaše ime, godine (opciono) i email adresu</h2>
+                <p>Da bi smo Vas bolje upoznali kao čitaoca Herbertovog dela molimo Vas da popunite anketu.</p>
                 <div class="form-group">
-                    <label id="name-label" for="name">Ime</label>
+                    <label id="name-label" class="form-label" for="name">IME</label>
                     <input
                         type="text"
                         name="name"
@@ -34,7 +34,18 @@
                     />
                 </div>
                 <div class="form-group">
-                    <label id="number-label" for="number">Godine <span class="clue">(opciono)</span></label>
+                    <label id="email-label" class="form-label" for="email">EMAIL</label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        class="form-control"
+                        placeholder="Upišite Vašu email adresu "
+                        required
+                    />
+                </div>
+                <div class="form-group">
+                    <label id="number-label" class="form-label" for="number">GODINE <span>(opciono)</span></label>
                     <input
                       type="number"
                       name="age"
@@ -46,24 +57,13 @@
                     />
                 </div>
                 <div class="form-group">
-                    <label id="email-label" for="email">Email adresa</label>
-                    <input
-                        type="email"
-                        name="email"
-                        id="email"
-                        class="form-control"
-                        placeholder="Upišite Vašu email adresu "
-                        required
-                    />
-                </div>
-                <div class="form-group">
-                    <p>Da li ste pročitali roman Dina?</p>
+                    <label id="label-dropdown" class="form-label" for="dropdown">DA LI STE PROČITALI DINU?</label>
                     <select id="dropdown" name="role" class="form-control" required>
                         <option disabled selected value>Izaberite opciju:</option>
-                        <option value="student">Ne</option>
-                        <option value="job">Da - samo prvi roman</option>
-                        <option value="learner">Da - celu sagu Frenka Herberta</option>
-                        <option value="preferNo">Da - celu sagu i nastavke Brajana Herberta i Kevin Dž. Andersona</option>
+                        <option value="no">Ne</option>
+                        <option value="yes">Da - prvi roman</option>
+                        <option value="yes-saga">Da - originalnu sagu</option>
+                        <option value="yes-all">Da - sagu i nastavke</option>
                     </select>
                 </div>
                 <div class="form-group">
