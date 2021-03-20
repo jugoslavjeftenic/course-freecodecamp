@@ -31,10 +31,6 @@ h2 {
     margin: 2rem 0;
 }
 
-a {
-    color: #f5f6f7;
-}
-
-hr {
-    margin: 2em 0;
-}
+p { padding: 0.5em; }
+a { color: #f5f6f7; }
+hr { margin: 2em 0; }
