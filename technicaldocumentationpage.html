@@ -9,8 +9,7 @@
         <title>Technical Documentation Page - freecodecamp.org</title>
         
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap">
         <link rel="stylesheet" href="css/style-technicaldocumentationpage.css">
     </head>
     
@@ -18,111 +17,110 @@
         <nav id="navbar">
             <header>CSS selektori</header>
             <ul>
-                <li><a class="nav-link" href="#basic_selectors">Basic selectors</a></li>
-                <li><a class="nav-link" href="#grouping_selectors">Grouping selectors</a></li>
-                <li><a class="nav-link" href="#combinators">Combinators</a></li>
-                <li><a class="nav-link" href="#pseudo">Pseudo</a></li>
+                <li><a class="nav-link" href="#osnovni_selektori">Osnovni selektori</a></li>
+                <li><a class="nav-link" href="#grupisani_selektori">Grupisani selektori</a></li>
+                <li><a class="nav-link" href="#kombinatori">Kombinatori</a></li>
+                <li><a class="nav-link" href="#pseudo_selektori">Pseudo selektori</a></li>
                 <li><a class="nav-link" href="#css_reference">CSS reference</a></li>
             </ul>
         </nav>
         <main id="main-doc">
-            <section class="main-section" id="basic_selectors">
-                <header>Basic selectors</header>
+            <section class="main-section" id="osnovni_selektori">
+                <header>Osnovni selektori</header>
                 <article>
                     <p>
-                        <strong>Basic selectors</strong> are fundamental selectors;
-                        these are the most basic selectors that are frequently combined to create other, more complex selectors.
+                        <strong>Osnovni selektori</strong> su fundamentalni selektori koji se često kombinuju da naprave
+                        druge, kompleksnije selektore.
                     </p>
                     <ul>
                         <li>
-                            <p>Universal selector</p>
+                            <p>Univerzalni selektori</p>
                             <code>*, <u>ns</u>|*, *|*, |*</code>
                         </li>
                         <li>
-                            <p>Type selector</p>
+                            <p>Selektor elementa</p>
                             <code><u>elementname</u></code>
                         </li>
                         <li>
-                            <p>Class selector</p>
+                            <p>Selektor klase</p>
                             <code>.<u>classname</u></code>
                         </li>
                         <li>
-                            <p>ID selector</p>
+                            <p>ID selektor</p>
                             <code>#<u>idname</u></code>
                         </li>
                         <li>
-                            <p>Attribute selector</p>
+                            <p>Selektor atributa</p>
                             <code>[attr=<u>value</u>]</code>
                         </li>
                     </ul>
                 </article>
             </section>
-            <section class="main-section" id="grouping_selectors">
-                <header>Grouping selectors</header>
+            <section class="main-section" id="grupisani_selektori">
+                <header>Grupisani selektori</header>
                 <article>
                     <ul>
                         <li>
-                            <p>Specifies that both A and B elements are selected. This is a grouping method to select several matching elements.</p>
+                            <p>
+                                Specifikuje da su oba A i B elementa selektovana.
+                                Ovo je metod grupisanja da bi se selektovalo nekoliko podudarnih elemenata.
+                            </p>
                             <code><u>Selector list</u> A, B</code>
                         </li>
                     </ul>
                 </article>
             </section>
-            <section class="main-section" id="combinators">
-                <header>Combinators</header>
+            <section class="main-section" id="kombinatori">
+                <header>Kombinatori</header>
                 <article>
-                    <p>
-                        Combinators are selectors that establish a relationship between two or more simple selectors,
-                        such as "A is a child of B" or "A is adjacent to B."
-                    </p>
                     <ul>
                         <li>
                             <p>
-                                Specifies that the elements selected by both A and B have the same parent and that the element selected by B
-                                immediately follows the element selected by A horizontally.
+                                Navodi da elementi koji su izabrali A i B imaju istog roditelja i da element koji je izabrao B
+                                neposredno sledi element koji je A izabrao vodoravno.
                             </p>
                             <code><u>Adjacent sibling combinator</u> A + B</code>
                         </li>
                         <li>
                             <p>
-                                Specifies that the elements selected by both A and B share the same parent and that the element selected by A
-                                comes before—but not necessarily immediately before—the element selected by B.
+                                Navodi da elementi koji su izabrali A i B dele istog roditelja i da element koji je izabrao A
+                                dolazi pre, ali ne i nužno neposredno pre, elementa koji je izabrao B.
                             </p>
                             <code><u>General sibling combinator</u> A ~ B</code>
                         </li>
                         <li>
                             <p>
-                                Specifies that the element selected by B is the direct child of the element selected by A.
+                                Određuje da je element koji je izabrao B direktno podređen elementu koji je izabrao A.
                             </p>
                             <code><u>Child combinator</u> A > B</code>
                         </li>
                         <li>
                             <p>
-                                Specifies that the element selected by B is a descendant of the element selected by A,
-                                but is not necessarily a direct child.
+                                Određuje da je element koji je izabrao B potomak elementa koji je izabrao A ali
+                                nije nužno njegovo direktno dete.
                             </p>
                             <code><u>Descendant combinator</u> A B</code>
                         </li>
                         <li>
                             <p>
-                                Specifies that the element selected by B is located within the table column specified by A.
-                                Elements which span multiple columns are considered to be a member of all of those columns.
+                                Navodi da se element koji je izabrao B nalazi unutar stupca tabele navedenog od A.
+                                Elementi koji se protežu u više kolona smatraju se članovima svih tih kolona.
                             </p>
                             <code><u>Column combinator</u> A || B</code>
                         </li>
                     </ul>
                 </article>
             </section>
-            <section class="main-section" id="pseudo">
-                <header>Pseudo</header>
+            <section class="main-section" id="pseudo_selektori">
+                <header>Pseudo selektori</header>
                 <article>
                     <ul>
                         <li>
-                            <p>Specifies a special state of the selected element(s).</p>
+                            <p>Određuje posebno stanje izabranih elemenata.</p>
                             <code><u>Pseudo classes</u> :</code>
                         </li>
                         <li>
-                            <p>Represents entities that are not included in HTML.</p>
+                            <p>Predstavlja entitete koji nisu uključeni u HTML.</p>
                             <code><u>Pseudo elements</u> ::</code>
                         </li>
                     </ul>
