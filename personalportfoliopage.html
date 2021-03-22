@@ -8,21 +8,21 @@
         
         <title>Personal Portfolio Page - freecodecamp.org</title>
         
+        <script src="https://kit.fontawesome.com/167cd16bf1.js" crossorigin="anonymous"></script>
+
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap">
         <link rel="stylesheet" href="css/style-shared.css">
         <link rel="stylesheet" href="css/style-personalportfoliopage.css">
-        
-        <script src="https://kit.fontawesome.com/167cd16bf1.js" crossorigin="anonymous"></script>
     </head>
     
     <body>
         <nav id="navbar">
             <ul>
-                <li><a href="#welcome-section">o meni</a></li>
-                <li><a href="#projects">projekti</a></li>
-                <li><a href="#contact">kontakt</a></li>
+                <a href="#welcome-section"><li>o meni</li></a>
+                <a href="#projects"><li>projekti</li></a>
+                <a href="#contact"><li>kontakt</li></a>
             </ul>
         </nav>
         
@@ -55,9 +55,14 @@
         </main>
         
         <section id="contact">
-            <h2>Želite da sarađujemo?</h2>
-            <i class="fab fa-github"></i>
-            <a id="profile-link" href="https://github.com/jugoslavjeftenic" target="_blank">GitHub</a>
+            <ul>
+                <a id="profile-link" href="https://github.com/jugoslavjeftenic" target="_blank">
+                    <li><i class="fab fa-github"> GitHub</i></li>
+                </a>
+                <a id="profile-link" href="https://www.freecodecamp.org/jugoslav" target="_blank">
+                    <li><i class="fab fa-free-code-camp"> freeCodeCamp</i></li>
+                </a>
+            </ul>
         </section>
 
         <footer>
