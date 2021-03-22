@@ -30,7 +30,6 @@ h1 {
 a { text-decoration: none; }
 p { padding: 1em 0; }
 
-
 main {
     max-width: 600px;
     margin: 0 auto;
@@ -44,9 +43,7 @@ form {
     border-radius: 5px;
 }
 
-.form-group {
-    padding-top: 0.4em;
-}
+.form-group { padding-top: 0.4em; }
 
 input,
 button,
@@ -71,23 +68,13 @@ textarea {
     letter-spacing: 1px;
 }
 
-.form-label span {
-    font-weight: 300;
-}
-
-.input-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.input-container label {
-    padding: 0.4em 0;
-}
+.form-label span { font-weight: 300; }
+.input-container { display: flex; flex-direction: column; }
+.input-container label { padding: 0.4em 0; }
 
 #comments {
     min-height: 120px;
     width: 100%;
-    /* padding: 1em; */
     resize: vertical;
 }
 

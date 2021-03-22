@@ -1,10 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+* { margin: 0; padding: 0; }
 
 html {
+    box-sizing: border-box;
     scroll-behavior: smooth;
     scroll-padding-top: 18rem;
     font-family: 'Lato', sans-serif;
@@ -12,29 +9,12 @@ html {
     line-height: 1.6;
 }
 
-@media (min-width: 601px) {
-    html {
-        scroll-padding-top: 6rem;
-    }
-}
+@media (min-width: 601px) { html { scroll-padding-top: 6rem; }}
 
-body {
-    margin-bottom: 5rem;
-}
-
-h1 {
-    font-size: 3rem;
-    text-align: center;
-}
-
-h2 {
-    font-size: 1.6rem;
-    text-align: center;
-}
-
-p {
-    margin: 1rem;
-}
+body { margin-bottom: 5rem; }
+h1 { font-size: 3rem; text-align: center; }
+h2 { font-size: 1.6rem; text-align: center; }
+p { margin: 1rem; }
 
 header {
     position: fixed;
@@ -51,11 +31,7 @@ header {
     justify-content: center;
 }
 
-@media (min-width: 601px) {
-    #nav-bar {
-        flex-direction: row;
-    }
-}
+@media (min-width: 601px) { #nav-bar { flex-direction: row; }}
 
 #nav-bar a {
     padding: 1rem 2rem;
@@ -64,10 +40,7 @@ header {
     color: #f2f2f2;
 }
 
-#nav-bar a:hover {
-    background-color: #fff;
-    color: #333;
-}
+#nav-bar a:hover { background-color: #fff; color: #333; }
 
 #header-img {
     display: block;
@@ -82,15 +55,8 @@ main {
     margin-top: 18rem;
 }
 
-@media (min-width: 601px) {
-    main {
-        margin-top: 6rem;
-    }
-}
-
-article {
-    padding-top: 2rem;
-}
+@media (min-width: 601px) { main { margin-top: 6rem; }}
+article { padding-top: 2rem; }
 
 #book-images {
     padding: 1rem;
@@ -103,22 +69,9 @@ article {
     align-items: center;
 }
 
-#book-images img {
-    max-width: 100%;
-    height: auto;
-}
-
-@media (min-width: 401px) {
-    #book-images {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (min-width: 801px) {
-    #book-images {
-        grid-template-columns: repeat(6, 1fr);
-    }
-}
+#book-images img { max-width: 100%; height: auto; }
+@media (min-width: 401px) { #book-images { grid-template-columns: repeat(3, 1fr); }}
+@media (min-width: 801px) { #book-images { grid-template-columns: repeat(6, 1fr); }}
 
 #movies iframe {
     display: block;
@@ -128,19 +81,8 @@ article {
     height: 164px;
 }
 
-@media (min-width: 491px) {
-    #movies iframe {
-        width: 480px;
-        height: 270px;
-    }
-}
-
-@media (min-width: 651px) {
-    #movies iframe {
-        width: 640px;
-        height: 370px;
-    }
-}
+@media (min-width: 491px) { #movies iframe { width: 480px; height: 270px; }}
+@media (min-width: 651px) { #movies iframe { width: 640px; height: 370px; }}
 
 #form {
     padding-top: 3rem;
@@ -173,11 +115,5 @@ footer {
     padding-top: 3rem;
 }
 
-footer a {
-    text-decoration: none;
-    color: #999;
-}
-
-footer a:hover {
-    color: #222;
-}
+footer a { text-decoration: none; color: #999; }
+footer a:hover { color: #222; }
