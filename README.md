@@ -17,15 +17,15 @@ Lessons
 
 Projects
 - Build a Tribute Page
-https://jugoslavjeftenic.github.io/course-freecodecamp-webdesign/tributepage.html
+https://course-freecodecamp.netlify.app/responsivewebdesign/tributepage.html
 - Build a Survey Form
-https://jugoslavjeftenic.github.io/course-freecodecamp-webdesign/surveyform.html
+https://course-freecodecamp.netlify.app/responsivewebdesign/surveyform.html
 - Build a Product Landing Page
-https://jugoslavjeftenic.github.io/course-freecodecamp-webdesign/landingpage.html
+https://course-freecodecamp.netlify.app/responsivewebdesign/landingpage.html
 - Build a Technical Documentation Page
-https://jugoslavjeftenic.github.io/course-freecodecamp-webdesign/technicaldocumentationpage.html
+https://course-freecodecamp.netlify.app/responsivewebdesign/technicaldocumentationpage.html
 - Build a Personal Portfolio Webpage
-https://jugoslavjeftenic.github.io/course-freecodecamp-webdesign/personalportfoliopage.html
+https://course-freecodecamp.netlify.app/responsivewebdesign/personalportfoliopage.html
 
 ## JavaScript Algorithms and Data Structures
 
