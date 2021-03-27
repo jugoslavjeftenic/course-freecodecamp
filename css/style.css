@@ -1,3 +1,8 @@
+:root {
+    --color-background: #3b3b4f;
+    --color-foreground: #f5f6f7;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,32 +10,44 @@
 }
 
 html {
-    background-color: #3b3b4f;
-    color: #f5f6f7;
+    background-color: var(--color-background);
+    color: var(--color-foreground);
     font-family: 'Roboto Mono', monospace;
     font-size: 1.2rem;
     font-weight: 400;
 }
 
 body {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 1em;
     text-align: center;
 }
 
+h1,
+h2,
+h3 {
+    font-weight: 200;
+}
+
 h1 {
     font-size: 1.6rem;
-    font-weight: 400;
-    margin: 3rem 0;
+    margin: 3rem 0 0;
 }
 
 h2 {
     font-size: 1.4rem;
-    font-weight: 400;
-    margin: 2rem 0;
+    margin: 3rem 0 0;
+}
+
+h3 {
+    /* font-size: 1.4rem; */
+    margin: 1rem 0 0;
 }
 
 p { padding: 0.5em; }
-a { color: #f5f6f7; }
-hr { margin: 2em 0; }
+a { color: inherit; }
+
+.curriculum {
+    padding: 1em 0;
+}
